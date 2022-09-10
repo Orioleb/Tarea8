@@ -4,11 +4,18 @@ public class Password {
 	private int longitud;
 	private String[] contraseña;
 	
+	/**
+	 * Constructor por defecto
+	 */
 	public Password() {
 		longitud=8;
 		contraseña=new String[8];
 	}
 	
+	/**
+	 * Pasamos por parametro la longitud
+	 * @param lon
+	 */
 	public Password(int lon) {
 		longitud=lon;
 		contraseña=new String[longitud];
